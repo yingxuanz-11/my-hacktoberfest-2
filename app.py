@@ -38,12 +38,20 @@ while True:
    if each_word == "angry":
       feelings_list.append("angry")
       encouragement_list.append("calm down.  it is over and there is no point crying over spilt milk")
-      counter += 1  
-      
+      counter += 1      
    if each_word == "annoyed":
       feelings_list.append("annoyed")
       encouragement_list.append("stop what you are doing and take a deep breath")
       counter += 1  
+   if each_word == "proud":
+      feelings_list.append("proud")
+      encouragement_list.append("good job! keep up the good work!")
+      counter += 1   
+   if each_word == "awkward":
+      feelings_list.append("awkward")
+      encouragement_list.append("it's alright! everyone has their moments, maybe you can try a different approach?")
+      counter += 1  
+      
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
