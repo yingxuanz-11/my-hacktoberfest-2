@@ -44,6 +44,10 @@ while True:
       feelings_list.append("annoyed")
       encouragement_list.append("stop what you are doing and take a deep breath")
       counter += 1  
+      
+   if each word == "hungry":
+      feelings_list.append("hungry")
+      encouragement_list.append("eating is very important")
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
