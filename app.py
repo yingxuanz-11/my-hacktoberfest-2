@@ -40,6 +40,11 @@ while True:
       encouragement_list.append("calm down.  it is over and there is no point crying over spilt milk")
       counter += 1  
       
+   if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("it's okay you tried your best :> just learn from your mistakes the next time!")
+      counter += 1
+      
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
